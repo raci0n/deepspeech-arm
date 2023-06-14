@@ -4,7 +4,8 @@ Its a deepspeech docker container for arm.
 # Installation
 
 Install Raspberry Pi OS [Debian version: **10** (buster), 21.02.2023] on your Raspberry Pi. 
-**Not** Raspberry Pi OS 11!
+
+It must be an armv7! Check the version with `uname -a`. Raspberry Pi OS 11 is already on armv8!
 
 Install git:
 ```
